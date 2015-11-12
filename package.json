@@ -1,6 +1,6 @@
 {
   "registry": "jspm",
-  "main": "index.ts!",
+  "main": "index.ts",
   "format": "es6",
   "directories": {
     "lib": "lib"
