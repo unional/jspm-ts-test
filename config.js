@@ -6,16 +6,20 @@ System.config({
     "npm:*": "jspm_packages/npm/*",
     "github:*": "jspm_packages/github/*"
   },
-  
+
   packages: {
     "lib": {
-      defaultExtension: false
+      "defaultExtension": false
     }
   },
 
   map: {
     "lodash": "npm:lodash@3.10.1",
+    "ts": "github:frankwallis/plugin-typescript@2.2.1",
     "typescript": "npm:typescript@1.6.2",
+    "github:frankwallis/plugin-typescript@2.2.1": {
+      "typescript": "npm:typescript@1.6.2"
+    },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
